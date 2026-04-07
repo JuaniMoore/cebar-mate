@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧉 El Mate de De Paul 🧉
 
-## Getting Started
+¡Bienvenido al minijuego oficial de **El Mate de De Paul**! Una experiencia arcade estilo cartoon donde pondrás a prueba tus reflejos, precisión y pura pasión argentina cebándole el mate ideal al capitán Lionel Messi. ¡Cuidado de no hervir el termo porque la vas a pasar mal!
 
-First, run the development server:
+## 🔗 Link del Proyecto en Vivo
+¡La aplicación ya está disponible en internet de forma pública!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**[https://cebar-mate.vercel.app](https://cebar-mate.vercel.app)** *(Acordate de actualizar este link cuando lo subas a Vercel)*
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Desarrollo Local (Para programarlo en tu PC)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Si querés seguir editando el código fuente, cambiar el ranking de puntuación o probar animaciones nuevas localmente en tu máquina, sigue estos pasos:
 
-## Learn More
+1. Instala las dependencias (si es tu primera vez clonándolo):
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Corre el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Abre [http://localhost:3000](http://localhost:3000) en el navegador o dispositivo móvil para ver los cambios locales.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cualquier cambio que hagas (especialmente en `app/page.tsx`) se reflejará automáticamente de forma instantánea gracias al Hot Reloading.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Despliegue (Deploy)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para publicar los cambios en tu web oficial:
+1. Sube los cambios de esta carpeta a GitHub (`git add .`, `git commit -m "update"`, `git push`).
+2. Si conectaste Vercel a tu GitHub, ¡el deploy web se hará automáticamente y estará online en minutos!
+
+---
+
+## 🤝 Cómo Contribuir (Pull Requests)
+
+¡Este minijuego es de código abierto (Open Source)! Sin embargo, **nadie puede modificar el código directamente** sin la aprobación del creador. 
+
+Si tienes una idea, descubriste un bug jugando en dispositivos móviles, o quieres agregar nuevas reacciones de Messi:
+1. Haz un **Fork** de este repositorio (copia la estructura a tu propia cuenta de GitHub).
+2. Crea una **nueva rama** con tu mejora (`git checkout -b mecanica-nueva`).
+3. Sube tus cambios a tu Fork (`git push origin mecanica-nueva`).
+4. Abre un **Pull Request (PR)** aquí en el repositorio original.
+
+¡Revisaré tus cambios y, si el cebado es perfecto, lo aprobaré para sumarlo al juego oficial!
