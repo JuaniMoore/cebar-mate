@@ -5,7 +5,7 @@
 ## 🔗 Link del Proyecto en Vivo
 ¡La aplicación ya está disponible en internet de forma pública!
 
-**[https://cebar-mate.vercel.app](https://cebar-mate.vercel.app)** *(Acordate de actualizar este link cuando lo subas a Vercel)*
+**[https://cebar-mate.vercel.app/](https://cebar-mate.vercel.app/
 
 ---
 
@@ -27,15 +27,6 @@ Si querés seguir editando el código fuente, cambiar el ranking de puntuación 
 
 Cualquier cambio que hagas (especialmente en `app/page.tsx`) se reflejará automáticamente de forma instantánea gracias al Hot Reloading.
 
----
-
-## 🚀 Despliegue (Deploy)
-
-Para publicar los cambios en tu web oficial:
-1. Sube los cambios de esta carpeta a GitHub (`git add .`, `git commit -m "update"`, `git push`).
-2. Si conectaste Vercel a tu GitHub, ¡el deploy web se hará automáticamente y estará online en minutos!
-
----
 
 ## 🤝 Cómo Contribuir (Pull Requests)
 
